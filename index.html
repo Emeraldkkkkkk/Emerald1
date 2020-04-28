@@ -322,22 +322,25 @@
             </p>
           </div>
           <div id="container-quote-form">
-            <form action="">
+            <form action="./php/controller/FormController.php" method="post">
               <fieldset>
-                <input type="text" name="inputName" id="inputName" placeholder="Complete Name" />
-                <input type="email" name="inputEmail" id="inputEmail" placeholder="Email" />
+                <input type="text" name="inputName" id="inputName" placeholder="Complete Name" required
+                  autocomplete="off" />
+                <input type="email" name="inputEmail" id="inputEmail" placeholder="Email" required autocomplete="off" />
               </fieldset>
 
               <fieldset>
-                <input type="text" name="inputCompany" id="inputCompany" placeholder="Company" />
-                <input type="text" name="inputPosition" id="inputPosition" placeholder="Position" />
+                <input type="text" name="inputCompany" id="inputCompany" placeholder="Company" required
+                  autocomplete="off" />
+                <input type="text" name="inputPosition" id="inputPosition" placeholder="Position" required
+                  autocomplete="off" />
               </fieldset>
               <fieldset>
-                <textarea name="inputMessage" id="inputMessage" cols="30" rows="10"
-                  placeholder="Describe your needs"></textarea>
+                <textarea name="inputMessage" id="inputMessage" cols="30" rows="10" required
+                  placeholder="Describe your needs" autocomplete="off"></textarea>
               </fieldset>
-              <button class="btnlink" id="submitbtn" type="submit">
-                Envoyer
+              <button class="btnlink" id="submitBtn" name="submitBtn" type="submit">
+                Send
               </button>
             </form>
           </div>

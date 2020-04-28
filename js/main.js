@@ -1,3 +1,5 @@
+
+
 // Add header background on scroll
 
 let nav = document.getElementById("nav");
@@ -30,8 +32,6 @@ let productDescription = document.getElementsByClassName("product-description");
 let consoleTitle = document.getElementById("console-header-title");
 let index = 0;
 
-
-
 $(function () {
   $.getJSON("./sources/content.json", (data) => {
     divProduct[0].classList.add("div-products-selected");
@@ -56,6 +56,22 @@ $(function () {
         consoleTitle.innerHTML = data[i][0]["title"];
       });
     });
+  }
+});
+
+// Send notification when form is submitted
+
+let submitBtn = document.getElementById("submitBtn");
+let inputName = document.getElementById("inputName");
+let inputEmail = document.getElementById("inputEmail");
+let inputCompany = document.getElementById("inputCompany");
+let inputPosition = document.getElementById("inputPosition");
+let inputMessage = document.getElementById("inputMessage");
+
+
+submitBtn.addEventListener("click", (event) => {
+  if (inputName.value.length > 0 && inputEmail.value.length > 0 && inputCompany.value.length > 0 && inputPosition.value.length > 0 && inputMessage.value.length > 0) {
+    var notification = new Notification("Message sent !");
   }
 });
 

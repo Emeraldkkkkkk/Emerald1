@@ -593,7 +593,7 @@ form textarea {
     padding: 2% 3%;
 }
 
-form button {
+ #submitBtn {
     align-self: flex-end;
     width: 15%;
     border:none;
@@ -630,7 +630,7 @@ footer {
     background: -webkit-linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003746', endColorstr='#01212c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    padding: 5% 0 0 0;
+    padding: 3% 0 0 0;
     font-family: "Poppins";
     color:#8ea6ad;
 }
@@ -859,7 +859,7 @@ footer div p {
         margin:0.3rem 0;
     }
 
-    form button {
+     #submitBtn {
         align-self: flex-end;
         width: 7rem;
         border: none;
@@ -1066,7 +1066,7 @@ footer div p {
         margin:0.3rem 0;
     }
 
-    form button {
+     #submitBtn {
         align-self: flex-end;
         width: 7rem;
         border: none;
