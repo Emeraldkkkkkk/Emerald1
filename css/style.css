@@ -312,7 +312,7 @@ border-bottom: 1px solid #c141ec;
 
 #console-main {
     display:flex; 
-    height: 75%;
+    /* height: 75%; */
 }
 
 #console-left-column {
@@ -326,6 +326,7 @@ border-bottom: 1px solid #c141ec;
     width: 80%; 
     background-color: #011724; 
     border-bottom-right-radius:5px;
+    padding-bottom: 2rem;
 }
 
 
