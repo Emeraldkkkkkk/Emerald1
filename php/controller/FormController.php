@@ -2,13 +2,14 @@
 // include('../model/AddToDB.class.php');
 
 if(isset($_POST["submitBtn"])) {
-    $inputName= $_POST["inputName"];
-    $inputEmail= $_POST["inputEmail"];
 
-    $inputCompany= $_POST["inputCompany"];
-    $inputPosition= $_POST["inputPosition"];
 
-    $inputMessage= $_POST["inputMessage"];
+  $inputName = filter_var($_POST["inputName"], FILTER_SANITIZE_SPECIAL_CHARS);
+  $inputEmail= filter_var(filter_var($_POST["inputEmail"], FILTER_SANITIZE_EMAIL), FILTER_VALIDATE_EMAIL) ;
+  $inputCompany= filter_var($_POST["inputCompany"], FILTER_SANITIZE_SPECIAL_CHARS);
+  $inputPosition= filter_var($_POST["inputCompany"], FILTER_SANITIZE_SPECIAL_CHARS);
+  $inputMessage= filter_var($_POST["inputMessage"], FILTER_SANITIZE_SPECIAL_CHARS);
+
 
     // $addToDB = new AddToDB($inputName, $inputEmail, $inputCompany, $inputPosition);
     // $addToDB->submitForm();
