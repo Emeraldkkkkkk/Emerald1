@@ -65,8 +65,8 @@ a {
 }
 
 header nav {
-    display: flex; 
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     -webkit-transition: all ease-out .5s;
     -moz-transition: all ease-out .5s;
@@ -79,7 +79,7 @@ header nav {
     background: -moz-linear-gradient(-70deg,  rgba(0,55,70,1) 0%, rgba(1,33,44,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003746', endColorstr='#01212c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003746', endColorstr='#01212c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     height: 3.5rem:
 }
 
@@ -175,9 +175,9 @@ border-bottom: 1px solid #c141ec;
 }
 
 #spandiscover {
-    display:inline-block; 
-    width: 50px; 
-    margin: 0 5px 5px 0; 
+    display:inline-block;
+    width: 50px;
+    margin: 0 5px 5px 0;
     border:0.5px solid white;
 }
 
@@ -264,18 +264,18 @@ border-bottom: 1px solid #c141ec;
 
 #console {
     width:65%;
-    padding-top: 4rem; 
+    padding-top: 4rem;
     margin-top: -4rem;
 }
 
 #console-header {
-    width: 95%; 
+    width: 95%;
     height: 35px;
     padding-left:1%;
-    background-color: #0f313b; 
-    border-top-right-radius:5px; 
-    border-top-left-radius:5px; 
-    display:flex; 
+    background-color: #0f313b;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    display:flex;
     align-items: center;
 }
 
@@ -288,14 +288,14 @@ border-bottom: 1px solid #c141ec;
 }
 
 .dot {
-    width: 10px; 
-    height: 10px; 
-    border-radius: 100px; 
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
     margin: 0 2px 0 6px;
 }
 
 .red {
-    background-color: #cc0001; 
+    background-color: #cc0001;
 }
 
 .yellow {
@@ -311,20 +311,20 @@ border-bottom: 1px solid #c141ec;
 }
 
 #console-main {
-    display:flex; 
+    display:flex;
     /* height: 75%; */
 }
 
 #console-left-column {
-    width:15%; 
-    display:block; 
-    background-color: #001e29; 
+    width:15%;
+    display:block;
+    background-color: #001e29;
     border-bottom-left-radius:5px;
 }
 
 #console-container {
-    width: 80%; 
-    background-color: #011724; 
+    width: 80%;
+    background-color: #011724;
     border-bottom-right-radius:5px;
     padding-bottom: 2rem;
 }
@@ -334,11 +334,11 @@ border-bottom: 1px solid #c141ec;
 /* Workflow */
 
 #section-workflow > div {
-    display: flex; 
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; 
+    flex-direction: column;
     margin-top:-15rem;
 }
 
@@ -346,7 +346,7 @@ border-bottom: 1px solid #c141ec;
     width: 55%;
     position: absolute;
     right: 30%;
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 .article-workflow {
@@ -464,7 +464,7 @@ border-bottom: 1px solid #c141ec;
 /* Contact & Quote */
 
 .container-contact-quote {
-    display:flex; 
+    display:flex;
     justify-content: space-between;
 }
 
@@ -676,7 +676,7 @@ footer div p {
 
 
 
-@media (max-width: 499px) { 
+@media (max-width: 499px) {
 
     body {
         width: 100%;
@@ -694,7 +694,7 @@ footer div p {
         padding: 9.5rem 2rem 0 2rem;
         width: 100%;
     }
-    
+
     #section-products, #section-workflow, #section-contact-quote, #section-testimonials, #section-team, #section-quantrack-universe {
         padding: 2rem;
     }
@@ -720,7 +720,7 @@ footer div p {
         background: -moz-linear-gradient(-70deg,  rgba(0,55,70,1) 0%, rgba(1,33,44,1) 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003746', endColorstr='#01212c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003746', endColorstr='#01212c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
 
 
@@ -893,13 +893,13 @@ footer div p {
     footer div img {
         width: 40%;
     }
-    
+
 }
 
 /* Extra Small Devices */
 
 
-@media (min-width: 500px) and (max-width: 767px) { 
+@media (min-width: 500px) and (max-width: 767px) {
 
 
     header {
@@ -944,7 +944,7 @@ footer div p {
         background: -moz-linear-gradient(-70deg,  rgba(0,55,70,1) 0%, rgba(1,33,44,1) 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(-70deg,  rgba(0,55,70,1) 0%,rgba(1,33,44,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003746', endColorstr='#01212c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */    
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003746', endColorstr='#01212c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     }
 
     .navlink {
@@ -1117,7 +1117,7 @@ footer div p {
 
 /* Small Devices */
 
-@media (min-width: 768px) and (max-width: 991px) { 
+@media (min-width: 768px) and (max-width: 991px) {
 
 
     .navlink {
@@ -1146,7 +1146,7 @@ footer div p {
 
  /* Medium Sized Devices */
 
- @media (min-width: 992px) and (max-width: 1199px) {  
+ @media (min-width: 992px) and (max-width: 1199px) {
 
 
     #arrow {
@@ -1190,6 +1190,3 @@ footer div p {
     font-family: "Poppins-Regular";
     src: url("../sources/fonts/Poppins/Poppins-Regular.ttf");
 }
-
-
-
