@@ -1,5 +1,3 @@
-
-
 // Add header background on scroll
 
 let nav = document.getElementById("nav");
@@ -22,6 +20,7 @@ let navlinkMobile = document.getElementById("navlink-mobile");
 
 btnHamburger.addEventListener("click", () => {
   navlinkMobile.classList.toggle("hidden");
+  btnHamburger.classList.toggle("fa-times");
 });
 
 // Products
@@ -68,10 +67,14 @@ let inputCompany = document.getElementById("inputCompany");
 let inputPosition = document.getElementById("inputPosition");
 let inputMessage = document.getElementById("inputMessage");
 
-
 submitBtn.addEventListener("click", (event) => {
-  if (inputName.value.length > 0 && inputEmail.value.length > 0 && inputCompany.value.length > 0 && inputPosition.value.length > 0 && inputMessage.value.length > 0) {
+  if (
+    inputName.value.length > 0 &&
+    inputEmail.value.length > 0 &&
+    inputCompany.value.length > 0 &&
+    inputPosition.value.length > 0 &&
+    inputMessage.value.length > 0
+  ) {
     var notification = new Notification("Message sent !");
   }
 });
-

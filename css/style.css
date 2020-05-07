@@ -32,7 +32,13 @@ header {
     padding: 2rem 4rem 6rem 4rem;
 }
 
-#section-workflow, #section-contact-quote {
+#section-workflow {
+    background-image: url('../sources/img/fond-5.jpg');
+    background-size:cover;
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+#section-contact-quote {
     background-image: url('../sources/img/fond-1.jpg');
     background-size:cover;
     padding: 2rem 4rem 2rem 4rem;
@@ -346,12 +352,12 @@ border-bottom: 1px solid #c141ec;
     width: 55%;
     position: absolute;
     right: 30%;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 
 .article-workflow {
     background-color: white;
-    width: 60%;
+    width: 50%;
     height:220px;
     margin:5% 0;
     padding:2% 4%;
@@ -379,6 +385,8 @@ border-bottom: 1px solid #c141ec;
     padding: 0 0 10px 0;
     position: relative;
     display:inline-block;
+    margin-bottom: 0.7rem;
+
 }
 
 
@@ -395,6 +403,8 @@ border-bottom: 1px solid #c141ec;
 .article-workflow p {
     font-family: "Lato-Regular";
     margin-top:0;
+    padding: 0 1rem 0 0;
+    font-size: 1.1rem;
 }
 
 /* Team */
@@ -532,7 +542,8 @@ border-bottom: 1px solid #c141ec;
 }
 
 .phonelink {
-    display:inline-block;
+    display:none;
+    /* display:inline-block; */
     background-color: #0194c8;
     font-size: 0.7rem;
     padding:4%;
@@ -1148,13 +1159,18 @@ footer div p {
 
  @media (min-width: 992px) and (max-width: 1199px) {
 
-
     #arrow {
         width: 60%;
         right: 25%;
     }
-
  }
+
+ @media (min-width: 1350px) {  
+
+    #arrow {
+        display:none;
+    }
+}
 
 
 

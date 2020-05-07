@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -13,28 +15,6 @@
       src="https://kit.fontawesome.com/ce9a5e3fb3.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./favicon/site.webmanifest" />
-    <link rel="shortcut icon" href="./favicon/favicon.ico" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="msapplication-config" content="./favicon/browserconfig.xml" />
-    <meta name="theme-color" content="#003746" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -43,13 +23,17 @@
     <header>
       <nav id="nav">
         <div id="logo-container">
-          <img id="logo" src="./sources/img/quantrack-logo.png" alt="" />
+          <img
+            id="logo"
+            src="./sources/img/quantrack-logo.png"
+            alt="quantrack logo"
+          />
         </div>
         <div id="navlink-container">
-          <a class="navlink" href="#section-products">Products</a>
-          <a class="navlink" href="#section-workflow">Workflow</a>
-          <a class="navlink" href="#section-team">Team</a>
+          <a class="navlink" href="#section-products">Our Products</a>
+          <a class="navlink" href="#section-workflow">Our Workflow</a>
           <a class="navlink" href="#section-contact-quote">Contact Us</a>
+          <a class="navlink" href="#section-quote">Get a Quote</a>
         </div>
         <div id="btn-menu">
           <span>
@@ -59,10 +43,10 @@
       </nav>
       <div id="navlink-mobile">
         <div id="navlink-container-mobile">
-          <a class="navlink" href="#section-products">Products</a>
-          <a class="navlink" href="#section-workflow">Workflow</a>
-          <a class="navlink" href="#section-team">Team</a>
+          <a class="navlink" href="#section-products">Our Products</a>
+          <a class="navlink" href="#section-workflow">Our Workflow</a>
           <a class="navlink" href="#section-contact-quote">Contact Us</a>
+          <a class="navlink" href="#section-quote">Get a Quote</a>
         </div>
       </div>
     </header>
@@ -153,59 +137,58 @@
 
       <section id="section-workflow">
         <h2 class="title white">Our Workflow</h2>
+        <img id="arrow" src="./sources/img/fleche.png" alt="arrow" />
         <div>
           <article class="article-workflow">
             <div>
-              <h3>Step 1 - Lorem Ipsum</h3>
+              <h3>Step 1</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur explicabo temporibus doloremque cum, ipsa deserunt,
-                quas quidem sed quae in laudantium molestias ducimus incidunt
-                architecto aspernatur magni, laborum saepe quis?
+                Our experts with different skills sets define your needs and
+                assess the feasibility of your project. We document all the
+                requirements and establish a detailed plan.
               </p>
             </div>
           </article>
 
           <article class="article-workflow">
             <div>
-              <h3>Step 2 - Lorem Ipsum</h3>
+              <h3>Step 2</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur explicabo temporibus doloremque cum, ipsa deserunt,
-                quas quidem sed quae in laudantium molestias ducimus incidunt
-                architecto aspernatur magni, laborum saepe quis?
+                We build data-driven solutions. We review your current data
+                workflow and infrastructures to find anomalies and
+                sticking-point. We organize data gathering using an end-to-end
+                encrypted protocol. The security of your data is our top
+                priority.
               </p>
             </div>
           </article>
 
           <article class="article-workflow">
             <div>
-              <h3>Step 3 - Lorem Ipsum</h3>
+              <h3>Step 3</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur explicabo temporibus doloremque cum, ipsa deserunt,
-                quas quidem sed quae in laudantium molestias ducimus incidunt
-                architecto aspernatur magni, laborum saepe quis?
+                Exploratory analysis, model design, training, and offline
+                evaluation: We develop the first proof-of-concept. You turned
+                your business problem into a well-defined machine learning task.
               </p>
             </div>
           </article>
 
           <article class="article-workflow">
             <div>
-              <h3>Step 4 - Lorem Ipsum</h3>
+              <h3>Step 4</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur explicabo temporibus doloremque cum, ipsa deserunt,
-                quas quidem sed quae in laudantium molestias ducimus incidunt
-                architecto aspernatur magni, laborum saepe quis?
+                Model deployment, monitoring, and maintenance: We Deploy your
+                tailored solution as a service, and integrate it within our
+                current processes and workflow. Our systems architects monitor
+                model accuracy and performance.
               </p>
             </div>
           </article>
-          <img id="arrow" src="./sources/img/fleche.png" alt="" />
         </div>
       </section>
 
-      <section id="section-team">
+      <!-- <section id="section-team">
         <h2 class="title">Meet the team</h2>
         <div id="container-team">
           <article class="article-team">
@@ -252,7 +235,7 @@
             </p>
           </article>
         </div>
-      </section>
+      </section> -->
 
       <!-- <section id="section-testimonials">
             <h2 class="title">They use Quantrack AI</h2>
@@ -282,16 +265,20 @@
           <div class="container-contact-quote">
             <div class="container-contact-quote-text">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-                quo accusamus molestias et quibusdam cumque ad! Cupiditate,
-                atque voluptate? Cumque saepe vel, amet id doloribus numquam
-                quaerat laboriosam dolorem assumenda.
+                Our team is spread across 3 continents and 8 time - zones. Even
+                if remote work is a core value of our company, having a place to
+                meet in real life is hugely enjoyable. Let’s have a coffee, or a
+                tea, at one of our location and get to know each other!
+              </p>
+              <p>
+                As travel addicts wea re always moving around and you can
+                currently find us there:
               </p>
             </div>
             <div id="container-contact-articles">
               <article>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.139641919952!2d-75.5995054859482!3d6.2453217954793425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a39999c271%3A0x1de048aebd5655b0!2sCircular%20Coworking%20La%20Casa%20Redonda!5e0!3m2!1sfr!2sfr!4v1586956748154!5m2!1sfr!2sfr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.139641919952!2d-75.5995054859482!3d6.2453217954793425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a39999c271%3A0x1de048aebd5655b0!2sCircular%20Coworking%20La%20Casa%20Redonda!5e0!3m2!1sfr!2sfr!4v1588869108265!5m2!1sfr!2sfr"
                   width="100%"
                   height="300"
                   style="border: 0;"
@@ -300,18 +287,17 @@
                   tabindex="0"
                 ></iframe>
                 <div>
-                  <h3>New York</h3>
-                  <p>New York City Office</p>
-                  <small>10 address street</small>
-                  <small>NY 0000</small>
-                  <a class="mailtolink" href="mailto:"
-                    >Email : email@nyoffice.com</a
+                  <h3>Medellin</h3>
+                  <p>Casa Redonda Coworking</p>
+                  <small>Laureles, Medellin</small>
+                  <a class="mailtolink" href="mailto:info@quantrack.io"
+                    >info@quantrack.io</a
                   >
                   <a class="phonelink" href="tel:+">Phone : 08 36 65 65 65</a>
                 </div>
               </article>
 
-              <article>
+              <!-- <article>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.139641919952!2d-75.5995054859482!3d6.2453217954793425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a39999c271%3A0x1de048aebd5655b0!2sCircular%20Coworking%20La%20Casa%20Redonda!5e0!3m2!1sfr!2sfr!4v1586956748154!5m2!1sfr!2sfr"
                   width="100%"
@@ -326,16 +312,15 @@
                   <p>Medellin Office</p>
                   <small>10 address street</small>
                   <small>Medellin 0000</small>
-                  <a class="mailtolink" href="mailto:"
-                    >Email : email@medellinoffice.com</a
+                  <a class="mailtolink" href="mailto:info@quantrack.io"
+                    >info@quantrack.io</a
                   >
                   <a class="phonelink" href="tel:+">Phone : 08 36 65 65 65</a>
                 </div>
-              </article>
-
+              </article> -->
               <article>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.139641919952!2d-75.5995054859482!3d6.2453217954793425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a39999c271%3A0x1de048aebd5655b0!2sCircular%20Coworking%20La%20Casa%20Redonda!5e0!3m2!1sfr!2sfr!4v1586956748154!5m2!1sfr!2sfr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.1536296595855!2d2.3354954152002527!3d48.874347779289145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e38f6f17aed%3A0xae3da7dd30c8108c!2sWeWork%20La%20Fayette!5e0!3m2!1sfr!2sfr!4v1588844279893!5m2!1sfr!2sfr"
                   width="100%"
                   height="300"
                   style="border: 0;"
@@ -344,12 +329,11 @@
                   tabindex="0"
                 ></iframe>
                 <div>
-                  <h3>Tallin</h3>
-                  <p>Tallin Office</p>
-                  <small>10 address street</small>
-                  <small>Tallin 0000</small>
-                  <a class="mailtolink" href="mailto:"
-                    >Email : email@tallinoffice.com</a
+                  <h3>Paris</h3>
+                  <p>WeWork La Fayette</p>
+                  <small>75009 Paris</small>
+                  <a class="mailtolink" href="mailto:info@quantrack.io"
+                    >info@quantrack.io</a
                   >
                   <a class="phonelink" href="tel:+">Phone : 08 36 65 65 65</a>
                 </div>
@@ -363,14 +347,15 @@
           <div class="container-contact-quote">
             <div class="container-contact-quote-text">
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-                quo accusamus molestias et quibusdam cumque ad! Cupiditate,
-                atque voluptate? Cumque saepe vel, amet id doloribus numquam
-                quaerat laboriosam dolorem assumenda.
+                If you can’t make it to one of our location, there’s still the
+                internet to connect. We would be more than happy to give you
+                extra information on our services or talk about any
+                question/suggestion you may have. <br />Bonus: we speak fluently
+                French, English and Spanish!
               </p>
             </div>
             <div id="container-quote-form">
-              <form action="<?= htmlspecialchars('./php/controller/FormController.php') ?>" method="post">
+              <form action="./php/controller/FormController.php" method="post">
                 <fieldset>
                   <input
                     type="text"
@@ -439,16 +424,14 @@
         </h2>
         <div id="container-quantrack-universe">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laborum
-            mollitia voluptas sed voluptatibus, inventore sunt, ut adipisci modi
-            vitae autem repellendus. Quia odit rem et ipsum aut deleniti
-            consequuntur?
+            Quantrack’s mission is about modern company building: We start with
+            an idea and transform it into a controlled fast - growing product
+            and, most of all, hea lthy business.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laborum
-            mollitia voluptas sed voluptatibus, inventore sunt, ut adipisci modi
-            vitae autem repellendus. Quia odit rem et ipsum aut deleniti
-            consequuntur?
+            Quantrack’s companies are places where great people can be inspired
+            and enabled to do the best and most meaningful work of their
+            careers.
           </p>
           <a class="btnlink" target="blank" href="http://quantrack.io/"
             >Visit Quantrack.io <span><i class="fas fa-chevron-right"></i></span
@@ -459,13 +442,13 @@
 
     <footer>
       <nav>
-        <a href="#section-products">Products</a>
-        <a href="#section-workflow">Workflow</a>
-        <a href="#section-team">Team</a>
+        <a href="#section-products">Our Products</a>
+        <a href="#section-workflow">Our Workflow</a>
         <a href="#section-contact-quote">Contact Us</a>
+        <a href="#section-quote">Get a Quote</a>
       </nav>
       <div>
-        <img src="./sources/img/quantrack-logo.png" alt="" />
+        <img src="./sources/img/quantrack-logo.png" alt="quantrack logo" />
         <p>
           Quantrack builds innovative algorithmics strategies to help you
           leverage the power of your data.
