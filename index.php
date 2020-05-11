@@ -64,7 +64,7 @@
           </span>
         </div>
       </nav>
-      <div id="navlink-mobile">
+      <div id="navlink-mobile" class="hidden">
         <div id="navlink-container-mobile">
           <a class="navlink" href="#section-products">Our Products</a>
           <a class="navlink" href="#section-workflow">Our Workflow</a>
