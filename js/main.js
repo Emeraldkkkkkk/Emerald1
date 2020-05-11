@@ -60,21 +60,20 @@ $(function () {
 
 // Send notification when form is submitted
 
-let submitBtn = document.getElementById("submitBtn");
-let inputName = document.getElementById("inputName");
-let inputEmail = document.getElementById("inputEmail");
-let inputCompany = document.getElementById("inputCompany");
-let inputPosition = document.getElementById("inputPosition");
-let inputMessage = document.getElementById("inputMessage");
-
-submitBtn.addEventListener("click", (event) => {
+let submitBtn = document.getElementById("submitBtn"),
+  inputName = document.getElementById("inputName"),
+  inputEmail = document.getElementById("inputEmail"),
+  inputCompany = document.getElementById("inputCompany"),
+  inputPosition = document.getElementById("inputPosition"),
+  inputMessage = document.getElementById("inputMessage");
+submitBtn.addEventListener("click", (e) => {
   if (
     inputName.value.length > 0 &&
     inputEmail.value.length > 0 &&
+    inputEmail.value.includes("@") &&
     inputCompany.value.length > 0 &&
     inputPosition.value.length > 0 &&
     inputMessage.value.length > 0
-  ) {
-    var notification = new Notification("Message sent !");
-  }
+  )
+    new Notification("Message sent !");
 });

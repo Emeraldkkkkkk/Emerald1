@@ -15,6 +15,28 @@
       src="https://kit.fontawesome.com/ce9a5e3fb3.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="./favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#003746" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -34,6 +56,7 @@
           <a class="navlink" href="#section-workflow">Our Workflow</a>
           <a class="navlink" href="#section-contact-quote">Contact Us</a>
           <a class="navlink" href="#section-quote">Get a Quote</a>
+          <a class="navlink navbtn" target="blank" href="https://quantrack.github.io/">Blog</a>
         </div>
         <div id="btn-menu">
           <span>
@@ -47,6 +70,8 @@
           <a class="navlink" href="#section-workflow">Our Workflow</a>
           <a class="navlink" href="#section-contact-quote">Contact Us</a>
           <a class="navlink" href="#section-quote">Get a Quote</a>
+          <a class="navlink" target="blank" href="https://quantrack.github.io/">Blog</a>
+
         </div>
       </div>
     </header>
@@ -446,6 +471,7 @@
         <a href="#section-workflow">Our Workflow</a>
         <a href="#section-contact-quote">Contact Us</a>
         <a href="#section-quote">Get a Quote</a>
+        <a target="blank" href="https://quantrack.github.io/">Blog</a>
       </nav>
       <div>
         <img src="./sources/img/quantrack-logo.png" alt="quantrack logo" />

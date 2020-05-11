@@ -122,6 +122,12 @@ header nav {
     font-size: 0.9rem;
 }
 
+.navbtn {
+    background-color: #c141ec;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
 
 #article-header {
     color: white;
@@ -652,9 +658,16 @@ footer * {
 }
 
 footer nav, footer div {
-    width:40%;
     text-align: center;
     padding:1%;
+}
+
+footer nav {
+    width:80%;
+}   
+
+footer div {
+    width:40%;
 }
 
 footer nav a {
@@ -688,6 +701,8 @@ footer div p {
 
 
 @media (max-width: 499px) {
+
+
 
     body {
         width: 100%;
@@ -1131,8 +1146,18 @@ footer div p {
 @media (min-width: 768px) and (max-width: 991px) {
 
 
+
+    #logo-container{
+        padding-left:2rem;
+    }
+
+    #navlink-container{
+        padding-right:2rem;
+    }
+
     .navlink {
         margin: 0 0 0 1rem;
+        font-size:0.7rem;
     }
 
 
@@ -1159,6 +1184,8 @@ footer div p {
 
  @media (min-width: 992px) and (max-width: 1199px) {
 
+
+
     #arrow {
         width: 60%;
         right: 25%;
@@ -1166,6 +1193,8 @@ footer div p {
  }
 
  @media (min-width: 1350px) {  
+
+
 
     #arrow {
         display:none;
