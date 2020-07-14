@@ -1,0 +1,8 @@
+{
+    "name": "marcomalaspina/quantrack-ai",
+    "type": "project",
+    "require": {
+        "josegonzalez/dotenv": "dev-master",
+        "johnathanmiller/secure-env-php": "^2.0"
+    }
+}

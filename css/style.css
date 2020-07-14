@@ -11,6 +11,9 @@ html {
     display:none;
 }
 
+.grecaptcha-badge {
+    visibility: hidden;
+}
 /* Sections Styling & Background images  */
 
 
